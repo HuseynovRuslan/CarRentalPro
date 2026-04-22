@@ -1,4 +1,4 @@
-import { getNotificationHistory, clearNotificationHistory } from "@/services/push-service";
+import { getNotificationHistory, clearNotificationHistory } from "@/services/NotificationService";
 import { layoutTheme } from "@/config/theme";
 import { useTheme } from "@/hooks/use-theme";
 import { ThemeType } from "@/types/theme.type";

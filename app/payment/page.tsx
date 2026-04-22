@@ -3,7 +3,7 @@ import Button from "@/components/ui/button";
 import Gradient from "@/components/ui/gradient";
 import { layoutTheme } from "@/config/theme";
 import { useTheme } from "@/hooks/use-theme";
-import { sendPaymentConfirmationNotification } from "@/services/push-service";
+import { sendPaymentConfirmationNotification } from "@/services/NotificationService";
 import { useAddBookingStore } from "@/state/bookingStore";
 import { useCarState } from "@/state/carStore";
 import { useCardStore } from "@/state/cardsStore";
